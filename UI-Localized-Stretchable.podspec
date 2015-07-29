@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UI-Localized-Stretchable"
-  s.version      = "1.0"
+  s.version      = "1.0.0"
   s.summary      = "Interface builder item link the NSLocalizedString and stretchable UITextfield and UIButton image and backgroundImage stretching"
 
   s.homepage     = "https://github.com/rapinto/UI-Localized-Stretchable"
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/rapinto/UI-Localized-Stretchable.git", :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/rapinto/UI-Localized-Stretchable.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
