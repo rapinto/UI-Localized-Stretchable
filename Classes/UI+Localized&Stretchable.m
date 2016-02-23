@@ -145,7 +145,7 @@
         [self setImage:selectedImage forState:UIControlStateSelected];
     }
     
-    UIImage *disabledImage = [self backgroundImageForState:UIControlStateDisabled];
+    UIImage *disabledImage = [self imageForState:UIControlStateDisabled];
     if (disabledImage != nil)
     {
         disabledImage = [disabledImage stretchableImageWithLeftCapWidth:(int)disabledImage.size.width / 2.0 topCapHeight:(int)disabledImage.size.height / 2.0];
